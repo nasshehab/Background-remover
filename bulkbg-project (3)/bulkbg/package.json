@@ -1,0 +1,52 @@
+{
+  "name": "bulkbg",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=20 <21"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@imgly/background-removal": "^1.6.0",
+    "@netlify/plugin-nextjs": "^5.0.0",
+    "@radix-ui/react-dialog": "^1.1.4",
+    "@radix-ui/react-label": "^2.1.1",
+    "@radix-ui/react-progress": "^1.1.1",
+    "@radix-ui/react-separator": "^1.1.1",
+    "@radix-ui/react-slider": "^1.2.2",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@radix-ui/react-switch": "^1.1.2",
+    "@radix-ui/react-tooltip": "^1.1.6",
+    "canvas-confetti": "^1.9.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^12.4.10",
+    "jszip": "^3.10.1",
+    "lucide-react": "^0.474.0",
+    "next": "^15.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-dropzone": "^14.3.5",
+    "sonner": "^1.7.4",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/file-saver": "^2.0.7",
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
+  }
+}
